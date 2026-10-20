@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ff6b9d">
+<title>Manisha's Dasara Wishes 🎭🌼</title>
+<style>
+:root{--pink:#ff5e98;--deep:#9a2864;--gold:#ffbe45;--cream:#fff9ef;--ink:#4a2440}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:radial-gradient(circle at 10% 10%,#ffe3ed 0 12%,transparent 32%),radial-gradient(circle at 90% 5%,#fff0b9 0 12%,transparent 32%),linear-gradient(145deg,#fff8f0,#ffeaf3 55%,#fff4cf);overflow-x:hidden}
+main{width:min(760px,92vw);margin:0 auto;padding:24px 0 38px;position:relative;z-index:1}
+.hero{text-align:center;padding:18px 10px 8px}
+.kicker{display:inline-block;background:#fff;border:1px solid #ffd0df;border-radius:999px;padding:7px 14px;font-size:.82rem;font-weight:800;color:#b33270;box-shadow:0 5px 18px #b3327010}
+h1{font-size:clamp(2rem,7vw,3.7rem);line-height:1.05;margin:18px 0 12px;letter-spacing:-.04em;color:#a82f70}
+h1 span{color:#ff8a35}
+.subtitle{max-width:560px;margin:0 auto;font-size:1.05rem;line-height:1.6}
+.stage{position:relative;display:flex;align-items:center;justify-content:center;gap:clamp(4px,3vw,22px);margin:20px auto 10px;min-height:128px}
+.character{font-size:clamp(3.5rem,12vw,6rem);filter:drop-shadow(0 8px 4px #9a28641b);animation:bob 2.3s ease-in-out infinite;display:inline-block}
+.character:nth-child(2){animation-delay:.3s}.character:nth-child(3){animation-delay:.6s}
+.diya{font-size:clamp(2.4rem,8vw,4rem);animation:glow 1.5s ease-in-out infinite alternate}
+@keyframes bob{0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(-12px) rotate(3deg)}}
+@keyframes glow{from{filter:drop-shadow(0 0 2px #ffac28)}to{filter:drop-shadow(0 0 18px #ff9d26)}}
+.card{background:#ffffffdc;border:1px solid #ffd4e2;border-radius:28px;padding:clamp(20px,5vw,34px);box-shadow:0 20px 55px #9a286416;backdrop-filter:blur(7px);margin-top:12px}
+.prompt{text-align:center;font-weight:800;font-size:1.18rem;margin:0 0 8px}
+.hint{text-align:center;color:#8d5877;margin:0 0 20px;font-size:.93rem}
+label{display:block;font-weight:750;font-size:.9rem;margin:0 0 7px}
+input{width:100%;padding:14px 15px;border:1.5px solid #f2b9d0;border-radius:15px;background:#fffdfd;font:inherit;color:var(--ink);outline:none}
+input:focus{border-color:var(--pink);box-shadow:0 0 0 4px #ff5e981c}
+.row{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:end}
+button{border:0;border-radius:15px;padding:14px 18px;font:inherit;font-weight:850;cursor:pointer;transition:transform .15s,filter .15s;min-height:49px}
+button:hover{transform:translateY(-2px);filter:brightness(1.03)}button:active{transform:translateY(1px)}
+.primary{color:white;background:linear-gradient(135deg,#ff5795,#d63b86);box-shadow:0 8px 20px #e33d861f}
+.secondary{color:#9c2e6c;background:#fff0f6;border:1px solid #ffc7dc}
+.buttons{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:13px}
+.result{display:none;margin-top:18px;border-radius:22px;background:linear-gradient(145deg,#fff4c9,#ffe5f0);border:1px dashed #f5a2c2;padding:22px;text-align:center;animation:pop .35s ease-out}
+.result.show{display:block}
+@keyframes pop{0%{opacity:0;transform:scale(.92)}100%{opacity:1;transform:scale(1)}}
+.result .emoji{font-size:2.6rem;display:block}
+.result h2{margin:8px 0;color:#a82f70;font-size:1.5rem}
+.result p{font-size:1.05rem;line-height:1.6;margin:8px 0 0}
+.small{font-size:.8rem;color:#94627f;text-align:center;margin:18px 0 0}
+footer{text-align:center;font-size:.83rem;color:#976681;padding:18px 0 0}
+.flower{position:fixed;top:-35px;z-index:0;pointer-events:none;animation:fall linear forwards;opacity:.9}
+@keyframes fall{to{transform:translateY(112vh) rotate(540deg);opacity:.15}}
+.sparkle{position:fixed;pointer-events:none;z-index:4;font-size:1.5rem;animation:spark .8s ease-out forwards}
+@keyframes spark{to{transform:translate(var(--dx),var(--dy)) scale(.3) rotate(80deg);opacity:0}}
+@media(max-width:520px){.row{grid-template-columns:1fr}.buttons{grid-template-columns:1fr}.card{border-radius:22px}.stage{min-height:100px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<main>
+  <header class="hero">
+    <div class="kicker">🌼 A tiny festive surprise from Manisha 🌼</div>
+    <h1>Manisha is sending <span>Dasara</span> wishes to her favourite people! 🎭</h1>
+    <p class="subtitle">Will <strong>YOU</strong> get a special wish from her? 😜<br>Let's see 👇</p>
+    <div class="stage" aria-label="Festive cartoon characters">
+      <span class="character">🧚🏻‍♀️</span><span class="character">🕺🏻</span><span class="character">💃🏻</span>
+      <span class="diya">🪔</span>
+    </div>
+  </header>
+  <section class="card">
+    <p class="prompt">🎁 Unlock your Dasara vibe!</p>
+    <p class="hint">Enter your name and find out what Manisha's festive message is for you.</p>
+    <form id="wishForm">
+      <label for="friendName">Your name (or nickname)</label>
+      <div class="row">
+        <input id="friendName" maxlength="32" placeholder="e.g. Chinnu, Bestie, Cutie…" autocomplete="given-name">
+        <button class="primary" type="submit">Reveal my wish ✨</button>
+      </div>
+    </form>
+    <div class="result" id="result" aria-live="polite">
+      <span class="emoji" id="resultEmoji">🌸</span>
+      <h2 id="resultTitle">Your Dasara result!</h2>
+      <p id="resultText"></p>
+    </div>
+    <div class="buttons">
+      <button class="secondary" id="anotherBtn" type="button">🔄 Another wish</button>
+      <button class="primary" id="shareBtn" type="button">💌 Share this surprise</button>
+    </div>
+    <p class="small">Warning: side effects may include smiling, laughing, and sending this to your whole gang. 😂</p>
+  </section>
+  <footer>Made with 💗, flowers 🌼 and a little Dasara magic by Manisha</footer>
+</main>
+<script>
+const wishes = [
+ {emoji:"🌸",title:"The Sunshine Person!",text:"You bring good vibes wherever you go! Ee Dasara nee life full happiness, love and sweet memories tho nindipovali. Happy Dasara! 💖"},
+ {emoji:"😂",title:"Official Trouble-Maker!",text:"Manisha says: nuvvu konchem over aina parledhu… gang lo entertainment nuvve! 😂 Ee Dasara full enjoy cheyyi, happy ga undu!"},
+ {emoji:"🪔",title:"Golden Heart Award!",text:"Nee manasu diya la bright ga undali, nee worries anni dooram avvali. May this Dasara bring peace, luck and lots of smiles! ✨"},
+ {emoji:"👑",title:"VIP Favourite Person!",text:"Ayyayyo, nuvvu ordinary kaadhu… Manisha's VIP list lo unnav! 😎 Ee pandaga nee dreams anni nijam avvalani korukuntunna. Happy Dasara!"},
+ {emoji:"🧿",title:"No-Negativity Zone!",text:"Fake vibes out, happy vibes in! 🚫😜 Ee Dasara nee life lo manchi people, good luck and positive energy maatrame undali!"},
+ {emoji:"💃",title:"Dance Floor Legend!",text:"Pandaga ante nee dance steps gurthosthayi! 😂 Music pettu, tension marchipo, and celebrate like a star. Happy Dasara, rockstar!"},
+ {emoji:"🥰",title:"Cute Human Alert!",text:"Nee smile eppudu ilage cute ga undali. 🌷 Ee Dasara neeku lots of love, chinna chinna surprises and pedda pedda happiness teesukuravali!"},
+ {emoji:"🍬",title:"Sweetness Overload!",text:"Nuvvu sweet… kani sweets kanna konchem ekkuva! 😂 Have a super sweet Dasara full of fun, family, friends and yummy treats!"},
+ {emoji:"🌈",title:"Main Character Energy!",text:"Ee story lo nuvve hero/heroine! ✨ May your next chapter be colourful, lucky and full of wins. Happy Dasara from Manisha!"},
+ {emoji:"🫶",title:"Friendship Blessing!",text:"Manchi friends dorakadam oka blessing… ninnu tease cheyyadam extra bonus! 😂 Stay blessed, stay happy, and have a lovely Dasara!"}
+];
+let lastIndex=-1;
+const $=id=>document.getElementById(id);
+function confetti(){
+ const symbols=["🌼","🌸","✨","💖","🪔","🎉"];
+ for(let i=0;i<18;i++){
+  const s=document.createElement("span");s.className="sparkle";s.textContent=symbols[Math.floor(Math.random()*symbols.length)];
+  s.style.left=(35+Math.random()*30)+"vw";s.style.top=(35+Math.random()*25)+"vh";
+  s.style.setProperty("--dx",(Math.random()*260-130)+"px");s.style.setProperty("--dy",(Math.random()*-220-30)+"px");
+  document.body.appendChild(s);setTimeout(()=>s.remove(),900);
+ }
+}
+function showWish(){
+ let i;do{i=Math.floor(Math.random()*wishes.length)}while(i===lastIndex&&wishes.length>1);lastIndex=i;
+ const name=$("friendName").value.trim();
+ const w=wishes[i];
+ $("resultEmoji").textContent=w.emoji;
+ $("resultTitle").textContent=(name?name+", ":"")+w.title;
+ $("resultText").textContent=w.text;
+ $("result").classList.remove("show");void $("result").offsetWidth;$("result").classList.add("show");
+ confetti();
+}
+$("wishForm").addEventListener("submit",e=>{e.preventDefault();showWish()});
+$("anotherBtn").addEventListener("click",showWish);
+$("shareBtn").addEventListener("click",async()=>{
+ const shareText="🎭 Manisha is sending Dasara wishes to her favourite people! Will YOU get a special wish? Let's see 🌼";
+ const url=location.href;
+ try{
+  if(navigator.share){await navigator.share({title:"Manisha's Dasara Wishes 🌸",text:shareText,url});}
+  else if(navigator.clipboard && location.protocol==="https:"){await navigator.clipboard.writeText(shareText+"\n"+url);alert("Share message and website link copied! 💗");}
+  else {prompt("Copy this message and share it with your friends:",shareText+"\n"+url);}
+ }catch(e){if(e.name!=="AbortError")prompt("Copy and share this link:",url);}
+});
+const flowers=["🌼","🌸","🌺","✨","💮"];
+function makeFlower(){
+ const f=document.createElement("span");f.className="flower";f.textContent=flowers[Math.floor(Math.random()*flowers.length)];
+ f.style.left=Math.random()*100+"vw";f.style.fontSize=(14+Math.random()*18)+"px";
+ const duration=5+Math.random()*7;f.style.animationDuration=duration+"s";document.body.appendChild(f);setTimeout(()=>f.remove(),duration*1000);
+}
+for(let i=0;i<12;i++)setTimeout(makeFlower,i*250);
+setInterval(makeFlower,650);
+</script>
+</body>
+</html>
